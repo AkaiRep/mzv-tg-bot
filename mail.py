@@ -1,4 +1,4 @@
-from requests.models import ITER_CHUNK_SIZE
+# -*- coding: utf-8 -*-
 import telebot
 from telebot import types
 import requests
