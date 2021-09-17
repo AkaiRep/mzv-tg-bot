@@ -34,7 +34,7 @@ while True:
     datas = []
     sorted_dates = []
     response = requests.get(url1)
-    soup = BeautifulSoup(response.text, 'lxml')
+    soup = BeautifulSoup(response.text, 'html5lib')
     items = soup.find_all('div', class_='article_content')
     while i<len(items): #sorting and parsing dates
         try:
