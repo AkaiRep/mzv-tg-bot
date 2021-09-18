@@ -68,5 +68,5 @@ while True:
         print("["+time.asctime()+"] Actual!")
     else:
         print("["+time.asctime()+"] Not actual :(")
-    sleep(5)
+    sleep(60)
 
