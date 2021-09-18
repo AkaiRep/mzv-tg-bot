@@ -20,7 +20,7 @@ class last_article:
     text = "text 1"
     data = ""
     def store_if_fresh(self, newheader,newtext,newdata):
-        if newheader != self.header:
+        if newdata != self.data:
             self.header = newheader
             self.text = newtext
             self.data = newdata
