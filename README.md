@@ -1,4 +1,4 @@
-# www.mzv.cz news sender bot
+# mzv cz news sender bot
 
 
 
